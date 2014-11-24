@@ -21,18 +21,18 @@ Application Description
 -----------
 The application is divided in following packages 
 1. com.chat.client : Contains the interface for the chat client
-		a.	impl: Contains the implementation of the chat client
+	- impl: Contains the implementation of the chat client
 2. com.chat.common: Contains the common classes used by the application
-		a.	data: Contains the classes related to data objects used in the application
-		b.	utils: Contains the utilities and helper classes
-3.	com.chat.server: Contains the interface for the chat server 
-		a.	impl: Contains the implementation for the chat server 
-4.	com.chat.ui: Contains the browser version for the UI
+	- data: Contains the classes related to data objects used in the application
+	- utils: Contains the utilities and helper classes
+3. com.chat.server: Contains the interface for the chat server 
+	- impl: Contains the implementation for the chat server 
+4. com.chat.ui: Contains the browser version for the UI
 
 Class Specifications
 -----------
 Following are the details of the classes
-1. Client.java: Implementation of the chat client and defines the logic to connect to the chat server and start/stop chat client.	
+1. Client.java: Implementation of the chat client and defines the logic to connect to the chat server and start/stop chat client.
 2. ClientSvc.java: Interface which is implemented by the Client.java and used to abstract the common methods which should be accessible by the outside world. This will also help decoupling to the client implementation.
 3. MsgBroker.java: A runnable thread which actually reads the messages from the chat server.
 4. Message.java: The data object which is passed between the server and client.
