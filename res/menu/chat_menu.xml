@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/iInfo"
+          android:icon="@drawable/ic_info"
+          android:title="Server info"
+          android:showAsAction="ifRoom"/>
+    <item android:id="@+id/iMates"
+          android:icon="@drawable/ic_mates"
+          android:title="Mates"/>
+    <item android:id="@+id/iLeave"
+          android:icon="@drawable/ic_signout"
+          android:title="LEAVE" />
+    <item android:id="@+id/iJoin"
+          android:icon="@drawable/ic_join"
+          android:title="JOIN" />
+</menu>

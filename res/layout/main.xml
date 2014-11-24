@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="fill_parent"
+              android:layout_height="fill_parent"
+              android:weightSum="1">
+    <EditText
+            android:layout_width="fill_parent"
+            android:layout_height="368dp"
+            android:inputType="textMultiLine"
+            android:ems="8"
+            android:id="@+id/etMessages"
+            android:height="390dp"
+            android:nestedScrollingEnabled="true"
+            android:gravity="left|top"
+            android:layout_weight="1.04"
+            android:clickable="false"
+            android:editable="false"/>
+    <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:layout_weight="0.07">
+        <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Send"
+                android:id="@+id/btSend"/>
+        <EditText
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/etMessage"
+                android:layout_weight="1"/>
+    </LinearLayout>
+
+</LinearLayout>
+
